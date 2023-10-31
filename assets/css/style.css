@@ -1,0 +1,590 @@
+
+/* ================ Designed by Programmer Titu ================= */
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@400;500;600;700;800&display=swap');
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Header Part Start */
+.header_part {
+  background: url(../img/home_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  background: rgba(0,0,0,.5);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #c7b299;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #c7b299;
+}
+.cart_icon {
+  padding: 0 10px;
+  color: #fff;
+}
+/* Hero Area Part Start */
+.hero_area {
+  padding: 180px 0;
+}
+.carousel-inner h5 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 500;
+}
+.carousel-inner h1 {
+  font-size: 52px;
+  color: #fff;
+  font-weight: 800;
+}
+.carousel-inner p {
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.hero_btn {
+  height: 52px;
+  width: 172px;
+  background: #988574;
+  border-radius: 4px;
+  border-bottom: 2px solid #726257;
+  /* box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5); */
+}
+.hero_btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+.hero_btn:hover {
+  background: rgba(152, 133, 116, 0.5);
+  transition: .3s;
+}
+.slide_btn {
+  margin-bottom: -170px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  border: 2px solid #c7b299;
+  background: none;
+}
+/* Header Part End */
+/* Searvice Part Start */
+.service_part {
+  padding: 70px 0;
+}
+.service_img img {
+  color: #555555;
+}
+.service_head h5 {
+  font-size: 22px;
+  color: #555555;
+  font-weight: 600;
+  padding: 20px 0 10px;
+}
+.service_head p {
+  font-size: 15px;
+  color: #8c8c8c;
+  font-weight: 300;
+}
+.serv_border {
+  border-bottom: 2px solid #f1ede9;
+  width: 72px;
+  margin: 20px 0 0 90px;
+}
+.service_con:hover .service_img img,
+.service_con:hover .service_head h5 {
+  color: #c7b299;
+}
+.service_con:hover .serv_border {
+  border-bottom: 2px solid #c7b299;
+}
+/* Searvice Part End */
+/* Realization Part Start */
+.realiz_part {
+  padding: 75px 0 0;
+  background: #fbf9f7;
+}
+.realiz_head h2 {
+  font-size: 30px;
+  color: #555555;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.realiz_head p {
+  font-size: 16px;
+  color: #8c8c8c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.slick_slider img {
+  /* height: 400px;
+  width: 770px; */
+  margin-bottom: -7px;
+}
+
+/* Realization Part End */
+/* Text Boxes Part Srart */
+.boxes_part {
+  padding: 45px 0;
+  background: linear-gradient(to right, #251d1b, #4b3226);
+}
+.boxes_head {
+  padding: 5px 0 0 20px;
+}
+.boxes_head h3 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 400;
+}
+.Waxom {
+  color: #c7b299;
+}
+.boxes_head p {
+  font-size: 18px;
+  color: #615855;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.boxes_btn {
+  width: 172px;
+  height: 50px;
+  border-radius: 3px;
+  border-bottom: 2px solid #726257;
+  background: #988574;
+}
+.boxes_btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 800;
+}
+.boxes_btn:hover {
+  background: rgba(152, 133, 116, 0.5);
+  transition: .3s;
+}
+/* Text Boxes Part End */
+/* Latest Projects Part Start */
+.latest_part {
+  padding: 80px 0;
+}
+.latest_head h2 {
+  font-size: 30px;
+  color: #555555;
+  font-weight: 600;
+}
+.latest_head p {
+  font-size: 16px;
+  color: #8c8c8c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.categori_btn {
+  padding: 10px 25px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.categori_btn a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #8c8c8c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.categori_btn:hover {
+  background: #998575;
+  transition: .3s;
+}
+.categori_btn:hover a {
+  color: #fff;
+}
+
+.categories_button .active {
+  background: #998575;
+  padding: 10px 25px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.categories_button .active a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.latest_img {
+  position: relative;
+}
+.latest_img:hover .latest_img_overlay {
+  opacity: 1;
+}
+.latest_img_overlay {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .3s;
+}
+.latest_img_icon {
+  margin: 0 15px 90px 0;
+}
+.latest_img_icon a {
+  color: #c7b299;
+  font-size: 22px;
+}
+.latest_img_text {
+  padding: 25px 30px 10px;
+}
+.latest_img_text h6 {
+  font-size: 21px;
+  color: #c7b299;
+  font-weight: 500;
+}
+.latest_img_text p {
+  font-size: 15px;
+  color: #d1d1d1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.latest_img:hover .latest_img_text {
+  background: #352f2d;
+}
+.latest_img:hover .latest_img_text h6 {
+  color: #fff;
+}
+.latest_img:hover .latest_img_text p {
+  color: #c7b299;
+}
+/* Latest Projects Part End */
+
+/* ================ Developed by Programmer Titu With Titu Mollick =================== */
+
+/* Video Presentation Part Start */
+.video_part {
+  background: url(../img/video_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.video_overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 200px 0;
+}
+.video_head h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+.video_head p {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.video_time p {
+  font-size: 14px;
+  color: #c7b299;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+/* Video Presentation Part End */
+/* Mobile Device Part Start */
+.mobile_part {
+  padding-top: 70px;
+}
+.mobile_head h3 {
+  font-size: 30px;
+  color: #555555;
+  font-weight: 600;
+}
+.mobile_head p {
+  font-size: 16px;
+  color: #8c8c8c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.mobile_icon_tex {
+  padding: 30px 0 0 45px;
+}
+.mobile_icon {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #c7b299;
+}
+.mobile_icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.mobile_icon i {
+  color: #fff;
+  font-size: 20px;
+}
+.mobile_text p {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #8c8c8c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+/* Mobile Device Part End */
+/* Counters Part Start */
+.counters_part {
+  padding: 60px 0;
+  background: linear-gradient(to right, #221c1a, #4d3327);
+}
+.counters_icon {
+  padding-bottom: 25px;
+}
+.counters_count h2 {
+  font-size: 48px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.counters_count p {
+  font-size: 15px;
+  color: #c7b299;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.counters_border {
+  border-bottom: 2px solid #f1ede9;
+  width: 34px;
+  margin: 20px 0 0 65px;
+}
+/* Counters Part End */
+/* Recent Post Part Start */
+.recent_part {
+  padding: 65px 0;
+}
+.recent_con {
+  position: relative;
+}
+.recent_con:hover .recent_overlay {
+  opacity: 1;
+}
+.recent_overlay {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .3s;
+}
+.img_date {
+  height: 60px;
+  width: 50px;
+  border-radius: 5px;
+  background: #363636;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.img_date h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.img_date p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #fff;
+  height: 24px;
+  width: 50px;
+  border-radius: 0 0 5px 5px;
+  background: #242424;
+}
+.recent_con:hover .img_date {
+  background: #c7b199; 
+}
+.recent_con:hover .img_date p {
+  background: #a48d71; 
+}
+.recent_img_head {
+  padding: 30px 24px 30px 30px;
+}
+.recent_img_head h5 {
+  font-size: 20px;
+  color: #555555;
+  font-weight: 500;
+}
+.recent_img_head p {
+  font-size: 14px;
+  color: #8c8c8c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.recent_img_head a {
+  font-size: 16px;
+  color: #c7b299;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+.recent_img_head i {
+  padding: 8px 0 0 8px;
+}
+.recent_con:hover .recent_img_head {
+  background: #524524;
+}
+.recent_con:hover .recent_img_head h5 {
+  color: #c7b299;
+}
+.recent_con:hover .recent_img_head p {
+  color: #fff;
+}
+.round_arrow {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #d1d1d1;
+  margin: 0 10px;
+}
+.round_arrow a {
+  font-size: 22px;
+}
+.round_arrow i {
+  color: #d1d1d1;
+}
+.round_arrow:hover  {
+  border: 2px solid #c7b299;
+}
+.round_arrow:hover i {
+  color: #c7b299;
+}
+/* Recent Post Part End */
+/* Partners Part Start */
+.partner_part {
+  background: url(../img/partner_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.partner_overlay {
+  background: rgba(0, 0, 0,0.6);
+  padding: 130px 0;
+}
+/* Partners Part End */
+/* Footer Part Start */
+.footer_overlay {
+  background: #191919;
+  padding: 70px 0;
+  border-bottom: 2px solid #242424;
+}
+.about_logo img {
+  padding-bottom: 20px;
+}
+.about_head h4 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.about_text h6 {
+  font-size: 12px;
+  color: #363636;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.about_text p {
+  font-size: 13px;
+  color: #555555;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.about_logo> .about_text a {
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+.about_logo> .about_text i {
+  padding: 8px;
+}
+.about_text h6 {
+  color: #fff;
+}
+.copy_right p:hover,
+.copyright_design p:hover,
+.about_text a:hover,
+.about_text p:hover {
+  color: #c7b299;
+}
+.bb {
+  border-bottom: 2px solid #242424;
+}
+.about_text a {
+  color: #00bff3;
+  text-decoration: none;
+}
+.link {
+  color: #959595;
+}
+.link:hover {
+  color: #c7b299;
+}
+/* CopyRight Area Start */
+.copyright_area {
+  padding: 40px 0 22px;
+  background: #101010;
+}
+.copyright_design p,
+.copy_right p {
+  font-size: 13px;
+  color: #555555;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-right: 15px;
+}
+.br {
+  border-right: 2px solid #242424;
+}
+.pl {
+  padding-left: 15px;
+}
+.copyright_design {
+  /* align-items: right; */
+  justify-content: right;
+}
+/* Footer Part End */
+
+/* ================ Developed by Programmer Titu With Titu Mollick =================== */
